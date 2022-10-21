@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select"
+        app:layout_constraintBottom_toTopOf="@+id/playLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectLayout"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TableLayout
+        android:id="@+id/selectLayout"
+        android:layout_width="398dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/playLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/testimonyId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/testimony"
+                android:dropDownWidth="wrap_content"
+                android:entries="@array/testimony"
+                android:spinnerMode="dialog"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Spinner
+                android:id="@+id/bookId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/book"
+                android:dropDownWidth="wrap_content"
+                android:entries="@array/oldBooks"
+                android:spinnerMode="dialog"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <!--            <Spinner-->
+            <!--                android:id="@+id/chapterId"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:contentDescription="@string/chapter"-->
+            <!--                android:dropDownWidth="100dp"-->
+            <!--                android:entries="@array/initialChapter"-->
+            <!--                android:spinnerMode="dropdown"-->
+            <!--                tools:ignore="TouchTargetSizeCheck" />-->
+            <Spinner
+                android:id="@+id/chapterId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/chapter"
+                android:dropDownWidth="100dp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/playLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectBtn"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <TableLayout
+        android:id="@+id/playLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center">-->
+
+<!--            -->
+<!--        </TableRow>-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/prebBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/prevBtn"
+                app:icon="@android:drawable/ic_media_previous"
+                app:iconGravity="end"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/playPauseBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/playPauseBtn"
+                app:icon="@android:drawable/ic_media_play"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/nextBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/nextBtn"
+                app:icon="@android:drawable/ic_media_next"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

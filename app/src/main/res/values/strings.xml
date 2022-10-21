@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">BibleSpeaks</string>
+    <string name="prevBtn">previous</string>
+    <string name="playPauseBtn">play or pause</string>
+    <string name="nextBtn">next</string>
+    <string name="name"></string>
+    <string name="testimony" translatable="true">testimony</string>
+    <string name="book" translatable="true">book</string>
+    <string name="chapter">chapter</string>
+    <string name="select">select</string>
+
+    <array name="testimony">
+        <item>"  పాత నిబంధన "</item>
+        <item>"  కొత్త నిబంధన "</item>
+    </array>
+
+    <array name="oldBooks">
+        <item>01.ఆదికాండము</item>
+        <item>02.నిర్గమకాండము</item>
+        <item>03.లేవీయకాండము</item>
+        <item>04.సంఖ్యాకాండము</item>
+        <item>05.ద్వితీయోపదేశకాండము</item>
+        <item>06.యెహొషువ</item>
+        <item>07.న్యాయాధిపతులు</item>
+        <item>08.రూతు</item>
+        <item>09.సమూయేలు మొదటి గ్రంథము</item>
+        <item>10.సమూయేలు రెండవ గ్రంథము</item>
+        <item>11.రాజులు మొదటి గ్రంథము</item>
+        <item>12.రాజులు రెండవ గ్రంథము</item>
+        <item>13.దినవృత్తాంతములు మొదటి గ్రంథము</item>
+        <item>14.దినవృత్తాంతములు రెండవ గ్రంథము</item>
+        <item>15.ఎజ్రా</item>
+        <item>16.నెహెమ్యా</item>
+        <item>17.ఎస్తేరు</item>
+        <item>18.యోబు గ్రంథము</item>
+        <item>19.కీర్తనల గ్రంథము</item>
+        <item>20.సామెతలు</item>
+        <item>21.ప్రసంగి</item>
+        <item>22.పరమగీతము</item>
+        <item>23.యెషయా గ్రంథము</item>
+        <item>24.యిర్మీయా</item>
+        <item>25.విలాపవాక్యములు</item>
+        <item>26.యెహెజ్కేలు</item>
+        <item>27.దానియేలు</item>
+        <item>28.హొషేయ</item>
+        <item>29.యోవేలు</item>
+        <item>30.ఆమోసు</item>
+        <item>31.ఓబద్యా</item>
+        <item>32.యోనా</item>
+        <item>33.మీకా</item>
+        <item>34.నహూము</item>
+        <item>35.హబక్కూకు</item>
+        <item>36.జెఫన్యా</item>
+        <item>37.హగ్గయి</item>
+        <item>38.జెకర్యా</item>
+        <item>39.మలాకీ</item>
+    </array>
+
+    <array name="newBooks">
+        <item>40.మత్తయి సువార్త</item>
+        <item>41.మార్కు సువార్త</item>
+        <item>42.లూకా సువార్త</item>
+        <item>43.యోహాను సువార్త</item>
+        <item>44.అపొస్తలుల కార్యములు</item>
+        <item>45.రోమీయులకు</item>
+        <item>46.1 కొరింథీయులకు</item>
+        <item>47.2 కొరింథీయులకు</item>
+        <item>48.గలతీయులకు</item>
+        <item>49.ఎఫెసీయులకు</item>
+        <item>50.ఫిలిప్పీయులకు</item>
+        <item>51.కొలొస్సయులకు</item>
+        <item>52.1 థెస్సలొనీకయులకు</item>
+        <item>53.2 థెస్సలొనీకయులకు</item>
+        <item>54.1 తిమోతికి</item>
+        <item>55.2 తిమోతికి</item>
+        <item>56.తీతుకు</item>
+        <item>57.ఫిలేమోనుకు</item>
+        <item>58.హెబ్రీయులకు</item>
+        <item>59.యాకోబు</item>
+        <item>60.1 పేతురు</item>
+        <item>61.2 పేతురు</item>
+        <item>62.1 యోహాను</item>
+        <item>63.2 యోహాను</item>
+        <item>64.3 యోహాను</item>
+        <item>65.యూదా</item>
+        <item>66.ప్రకటన గ్రంథము</item>
+    </array>
+
+    <integer-array name="oldChapters">
+        <item>50</item>
+        <item>40</item>
+        <item>27</item>
+        <item>36</item>
+        <item>34</item>
+        <item>24</item>
+        <item>21</item>
+        <item>4</item>
+        <item>31</item>
+        <item>24</item>
+        <item>22</item>
+        <item>25</item>
+        <item>29</item>
+        <item>36</item>
+        <item>10</item>
+        <item>13</item>
+        <item>10</item>
+        <item>42</item>
+        <item>150</item>
+        <item>31</item>
+        <item>12</item>
+        <item>8</item>
+        <item>66</item>
+        <item>52</item>
+        <item>5</item>
+        <item>48</item>
+        <item>12</item>
+        <item>14</item>
+        <item>3</item>
+        <item>9</item>
+        <item>1</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>14</item>
+        <item>4</item>
+    </integer-array>
+
+    <integer-array name="newChapters">
+        <item>28</item>
+        <item>16</item>
+        <item>24</item>
+        <item>21</item>
+        <item>28</item>
+        <item>16</item>
+        <item>16</item>
+        <item>13</item>
+        <item>6</item>
+        <item>6</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>13</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>22</item>
+    </integer-array>
+
+</resources>
